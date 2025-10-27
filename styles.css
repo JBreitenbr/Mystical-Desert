@@ -112,6 +112,9 @@ p {
     padding: 5px;
     font-size: 0.7rem;
 }
+.sm {
+      font-size: 0.65rem;
+}
 @media (min-width: 768px) {
  img {
     width: 50px;
