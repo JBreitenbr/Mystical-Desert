@@ -115,6 +115,9 @@ p {
 .sm {
       font-size: 0.65rem;
 }
+.xs {
+      font-size: 0.6rem;
+}
 @media (min-width: 768px) {
  img {
     width: 50px;
