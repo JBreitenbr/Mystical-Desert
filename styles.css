@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Raleway:wght@300;400&display=swap');
+/*:root {
+  --text-default: #2A2A2A;     
+  --text-light:   #E7E1D5;     
+}*/
 * {
   margin: 0;
   padding: 0;
@@ -54,32 +58,38 @@ h4 {
 /* 🌈 Farbverläufe für die einzelnen Kapitel */
 
 #kap1 {
-  background: linear-gradient(180deg, #f6e8b1, #e4c17c);
-  color: #2e2719;
+  background: #C9A878;
+  /*linear-gradient(180deg, #f6e8b1, #e4c17c)*/;
+  color: #2a2a2a;
 }
 
 #kap2 {
-  background: linear-gradient(180deg, #f7d7a2, #d69a56);
-  color: #2e1c0c;
+  background:#C56B42;
+  /* linear-gradient(180deg, #f7d7a2, #d69a56);*/
+  color: #2a2a2a;
 }
 
 #kap3 {
-  background: linear-gradient(180deg, #e2b579, #c87341);
-  color: #2b1505;
+  background: /*linear-gradient(180deg, #e2b579, #c87341);*/
+  #A0765A;
+  color: #2a2a2a;
 }
 
 #kap4 {
-  background: linear-gradient(180deg, #f7d7a2, #d69a56);
-  color: #2e1c0c;
+  background: #AD4E2F;
+  /*linear-gradient(180deg, #f7d7a2, #d69a56);*/
+  color: #2a2a2a;
 }
 
 #kap5 {
-  background: linear-gradient(180deg, #b88e77, #705140);
-  color: #e8e5f5;
+  background: #6F573B;
+  /*linear-gradient(180deg, #b88e77, #705140);*/
+  color: #e7e1d5;
 }
 #kap6 {
-  background: linear-gradient(180deg, #3d3553, #1a162a);
-  color: #f1effa;
+  background: #6C5368;
+  /*linear-gradient(180deg, #3d3553, #1a162a);*/
+  color: #e7e1d5;
 }
 
 #kap7 {
